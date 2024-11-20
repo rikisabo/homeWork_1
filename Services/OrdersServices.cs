@@ -1,8 +1,7 @@
-using System.Security.Cryptography;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 
-namespace תשתית_לניהול_חנות_פיצה_חני_גולדברג.Services;
+using myModels;
+using myModels.Interfaces;
+namespace Services;
 public class OrdersServices : Iorders
 {
      List<Orders> orders=new List<Orders>()
