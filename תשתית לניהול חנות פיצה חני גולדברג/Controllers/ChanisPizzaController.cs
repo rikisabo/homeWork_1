@@ -15,10 +15,10 @@ public class ChanisPizzaController : BaceController
       [HttpGet]
       public IActionResult getPizzaList()
       {
-            var p1 = _chanisPizza.getPizzaList();
-            if (p1 != null)
-                  Ok(p1);
-            return NotFound("pizza list!!!!");
+            var p2 = _chanisPizza.getPizzaList();
+            if (p2 != null){
+                 return Ok(p2);}
+            return NotFound("no pizza list!!!!");
       }
       [Route("[action]/{id}")]
       [HttpGet]
@@ -26,7 +26,7 @@ public class ChanisPizzaController : BaceController
       {
             ChanisPizza p2 = _chanisPizza.getPizza(id);
             if (p2 != null)
-                  Ok("pizzaName: " + p2.pizzaName + " id: " + p2.pizzaId + " with gloten? " + p2.ifGloten);
+                  return Ok("pizzaName: " + p2.pizzaName + " id: " + p2.pizzaId + " with gloten? " + p2.ifGloten);
             return NotFound("pizza list!!!!");
       }
 

@@ -1,0 +1,13 @@
+H:\webApi\חדש\FileService\obj\Debug\net8.0\FileService.GeneratedMSBuildEditorConfig.editorconfig
+H:\webApi\חדש\FileService\obj\Debug\net8.0\FileService.AssemblyInfoInputs.cache
+H:\webApi\חדש\FileService\obj\Debug\net8.0\FileService.AssemblyInfo.cs
+H:\webApi\חדש\FileService\obj\Debug\net8.0\FileService.csproj.CoreCompileInputs.cache
+H:\webApi\חדש\FileService\obj\Debug\net8.0\FileService.sourcelink.json
+H:\webApi\חדש\FileService\obj\Debug\net8.0\FileService.csproj.AssemblyReference.cache
+H:\webApi\חדש\FileService\bin\Debug\net8.0\FileService.deps.json
+H:\webApi\חדש\FileService\bin\Debug\net8.0\FileService.dll
+H:\webApi\חדש\FileService\bin\Debug\net8.0\FileService.pdb
+H:\webApi\חדש\FileService\obj\Debug\net8.0\FileService.dll
+H:\webApi\חדש\FileService\obj\Debug\net8.0\refint\FileService.dll
+H:\webApi\חדש\FileService\obj\Debug\net8.0\FileService.pdb
+H:\webApi\חדש\FileService\obj\Debug\net8.0\ref\FileService.dll

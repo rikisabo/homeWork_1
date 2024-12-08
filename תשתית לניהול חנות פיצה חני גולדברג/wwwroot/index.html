@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body onload="load()">
+        <div>
+            <span>fly list</span>
+            <table id="Pizzalist">
+                <thead>
+                    <tr>
+                        <th>pizzaName</th>
+                        <th>pizzaId</th>
+                        <th>ifGloten</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <input id="pizzaName" type="text" >
+            <input id="pizzaId" type="number">
+            <input id="ifGloten" type="checkbox">
+            <input type="button" value="send" onclick="addPizza()">
+        </div>
+        <script src="script.js">
+        </script>
+    </body>
+
+</html>

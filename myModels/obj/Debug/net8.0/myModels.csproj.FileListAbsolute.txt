@@ -9,3 +9,4 @@ H:\webApi\חדש\myModels\obj\Debug\net8.0\myModels.dll
 H:\webApi\חדש\myModels\obj\Debug\net8.0\refint\myModels.dll
 H:\webApi\חדש\myModels\obj\Debug\net8.0\myModels.pdb
 H:\webApi\חדש\myModels\obj\Debug\net8.0\ref\myModels.dll
+H:\webApi\חדש\myModels\obj\Debug\net8.0\myModels.sourcelink.json

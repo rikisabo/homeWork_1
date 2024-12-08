@@ -90,24 +90,12 @@ H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.runtimeconfig.json
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.dll
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.pdb
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.OpenApi.dll
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Newtonsoft.Json.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\System.Security.Permissions.dll
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\myModels.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\pizzasFiles.dll
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\pizzasFiles.pdb
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\myModels.pdb
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\staticwebassets.build.json
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\staticwebassets.development.json
@@ -120,3 +108,8 @@ H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.csproj.CopyComplete
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.genruntimeconfig.cache
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\ref\תשתית לניהול חנות פיצה-חני גולדברג.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\FileService.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\FileService.pdb
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.staticwebassets.runtime.json
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\myServices.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\myServices.pdb
