@@ -11,8 +11,8 @@ H:\webApi\חדש\myServices\obj\Debug\net8.0\myServices.AssemblyInfoInputs.cache
 H:\webApi\חדש\myServices\obj\Debug\net8.0\myServices.AssemblyInfo.cs
 H:\webApi\חדש\myServices\obj\Debug\net8.0\myServices.csproj.CoreCompileInputs.cache
 H:\webApi\חדש\myServices\obj\Debug\net8.0\myServices.sourcelink.json
-H:\webApi\חדש\myServices\obj\Debug\net8.0\myServices.csproj.CopyComplete
 H:\webApi\חדש\myServices\obj\Debug\net8.0\myServices.dll
 H:\webApi\חדש\myServices\obj\Debug\net8.0\refint\myServices.dll
 H:\webApi\חדש\myServices\obj\Debug\net8.0\myServices.pdb
 H:\webApi\חדש\myServices\obj\Debug\net8.0\ref\myServices.dll
+H:\webApi\חדש\myServices\obj\Debug\net8.0\myServices.csproj.CopyComplete

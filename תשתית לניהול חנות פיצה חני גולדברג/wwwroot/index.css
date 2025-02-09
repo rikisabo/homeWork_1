@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #d25d00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d25d00;
+}
+
+
+
+
+
+.divFuncAddPizza {
+    display: none;
+    background-color: #f9e0c1; /* Light pizza-like color */
+    border: 2px solid #d25d00; /* Pizza crust color */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto; /* Center the div */
+    font-family: 'Arial', sans-serif; /* Font styling */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.divFuncAddPizza span {
+    font-size: 24px; 
+    font-weight: bold;
+    color: #c95b0b; /* Topping color */
+    display: block; /* Ensure it takes full width */
+    margin-bottom: 15px; /* Space below the title */
+    text-align: center; /* Center the title */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between table borders */
+    margin-bottom: 20px; /* Space between table and inputs */
+}
+
+th, td {
+    border: 1px solid #d25d00; /* Consistent border with crust color */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e4c19c; /* Light cheese color */
+    color: #5a3d0b; /* Darker font color for headers */
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(33.33% - 20px); /* Responsive width for inputs */
+    padding: 10px;
+    margin-right: 10px; /* Space between inputs */
+    border: 1px solid #d25d00; /* Crust-like border */
+    border-radius: 5px; /* Rounded input corners */
+}
+
+input[type="button"] {
+    background-color: #c95b0b; /* Button color resembling pizza sauce */
+    color: white; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+input[type="button"]:hover {
+    background-color: #a44d0a; /* Darker color on hover */
+}

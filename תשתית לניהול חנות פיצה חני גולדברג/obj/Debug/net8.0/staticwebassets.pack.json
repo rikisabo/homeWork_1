@@ -1,12 +1,24 @@
 {
   "Files": [
     {
+      "Id": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\addPizza.html",
+      "PackagePath": "staticwebassets\\addPizza.html"
+    },
+    {
+      "Id": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\addPizza.js",
+      "PackagePath": "staticwebassets\\addPizza.js"
+    },
+    {
+      "Id": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
       "Id": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\script.js",
-      "PackagePath": "staticwebassets\\script.js"
+      "Id": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\index.js",
+      "PackagePath": "staticwebassets\\index.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.תשתית לניהול חנות פיצה-חני גולדברג.props",

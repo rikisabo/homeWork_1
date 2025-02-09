@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dU/oiKIZDWkCumFPLBDMEfmkAhztPIGtuICUav56OcU=",
+  "Hash": "jwJ5WeiV05QmZuEfUXbAFz1jDgJ7ljLbkkQCEzgJw/w=",
   "Source": "תשתית לניהול חנות פיצה-חני גולדברג",
   "BasePath": "_content/תשתית לניהול חנות פיצה-חני גולדברג",
   "Mode": "Default",
@@ -16,6 +16,63 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\addPizza.html",
+      "SourceId": "תשתית לניהול חנות פיצה-חני גולדברג",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\",
+      "BasePath": "_content/תשתית לניהול חנות פיצה-חני גולדברג",
+      "RelativePath": "addPizza.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\addPizza.html"
+    },
+    {
+      "Identity": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\addPizza.js",
+      "SourceId": "תשתית לניהול חנות פיצה-חני גולדברג",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\",
+      "BasePath": "_content/תשתית לניהול חנות פיצה-חני גולדברג",
+      "RelativePath": "addPizza.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\addPizza.js"
+    },
+    {
+      "Identity": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\index.css",
+      "SourceId": "תשתית לניהול חנות פיצה-חני גולדברג",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\",
+      "BasePath": "_content/תשתית לניהול חנות פיצה-חני גולדברג",
+      "RelativePath": "index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.css"
+    },
     {
       "Identity": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\index.html",
       "SourceId": "תשתית לניהול חנות פיצה-חני גולדברג",
@@ -36,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\script.js",
+      "Identity": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\index.js",
       "SourceId": "תשתית לניהול חנות פיצה-חני גולדברג",
       "SourceType": "Discovered",
       "ContentRoot": "H:\\webApi\\חדש\\תשתית לניהול חנות פיצה חני גולדברג\\wwwroot\\",
       "BasePath": "_content/תשתית לניהול חנות פיצה-חני גולדברג",
-      "RelativePath": "script.js",
+      "RelativePath": "index.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\script.js"
+      "OriginalItemSpec": "wwwroot\\index.js"
     }
   ]
 }

@@ -32,6 +32,9 @@
         }
       },
       "myModels/1.0.0": {
+        "dependencies": {
+          "FileService": "1.0.0"
+        },
         "runtime": {
           "myModels.dll": {}
         }

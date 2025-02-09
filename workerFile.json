@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "sss",
+        "Age": 23,
+        "Salary": 5000,
+        "Role": "superWorker",
+        "Password": "963"
+    },
+    {
+        "Name": "riki",
+        "Age": 20,
+        "Salary": 500000,
+        "Role": "admin",
+        "Password": "1111"
+    }
+]

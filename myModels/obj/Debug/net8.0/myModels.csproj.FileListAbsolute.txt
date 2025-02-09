@@ -10,3 +10,7 @@ H:\webApi\חדש\myModels\obj\Debug\net8.0\refint\myModels.dll
 H:\webApi\חדש\myModels\obj\Debug\net8.0\myModels.pdb
 H:\webApi\חדש\myModels\obj\Debug\net8.0\ref\myModels.dll
 H:\webApi\חדש\myModels\obj\Debug\net8.0\myModels.sourcelink.json
+H:\webApi\חדש\myModels\bin\Debug\net8.0\FileService.dll
+H:\webApi\חדש\myModels\bin\Debug\net8.0\FileService.pdb
+H:\webApi\חדש\myModels\obj\Debug\net8.0\myModels.csproj.AssemblyReference.cache
+H:\webApi\חדש\myModels\obj\Debug\net8.0\myModels.csproj.CopyComplete

@@ -6,6 +6,7 @@ namespace myServices;
 public class ChanisPizzaServices : IpizzaMannager
 {
     IFileService<ChanisPizza> _file;
+
     string _path=@"H:\webApi\חדש\file.json";
     public ChanisPizzaServices(IFileService<ChanisPizza> file){
         _file=file;
@@ -36,7 +37,8 @@ public class ChanisPizzaServices : IpizzaMannager
         }
         return null;
     }
-    public ChanisPizza getPizzaByName(string name)
+ 
+    public ChanisPizza getPizzaByName( string name)
     {
         foreach (var i in p1)
         {

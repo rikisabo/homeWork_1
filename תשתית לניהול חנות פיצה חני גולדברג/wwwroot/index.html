@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.js"></script>
+    <title>Login Form</title>
 </head>
-
 <body>
+    <div class="container">
+        <form id="loginForm">
+            <h2>Login</h2>
+            <!-- <button type="submit" onclick="addPizza()">add</button> -->
 
-    <body onload="load()">
-        <div>
-            <span>fly list</span>
-            <table id="Pizzalist">
-                <thead>
-                    <tr>
-                        <th>pizzaName</th>
-                        <th>pizzaId</th>
-                        <th>ifGloten</th>
-                    </tr>
-                </thead>
-                <tbody>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
 
-                </tbody>
-            </table>
-            <input id="pizzaName" type="text" >
-            <input id="pizzaId" type="number">
-            <input id="ifGloten" type="checkbox">
-            <input type="button" value="send" onclick="addPizza()">
-        </div>
-        <script src="script.js">
-        </script>
-    </body>
+            <button type="submit" onclick = "Login()">Login</button>
+        </form>
+    </div>
+    
+    <div class="divFuncAddPizza">
+        <span>Pizza list</span>
+        <table id="Pizzalist">
+            <thead>
+                <tr>
+                    <th>pizzaName</th>
+                    <th>pizzaId</th>
+                    <th>ifGloten</th>
+                </tr>
+            </thead>
+            <tbody>
 
+            </tbody>
+        </table>
+        <input id="pizzaName" type="text" >
+        <input id="pizzaId" type="number">
+        <input id="ifGloten" type="text" >
+        <!-- <input id="ifGloten" type="checkbox"> -->
+        <input type="button" value="send" onclick ="addPizza()">
+    </div>
+
+    <script src="index.js"></script>
+</body>
 </html>

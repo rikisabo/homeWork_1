@@ -105,7 +105,6 @@ H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.תשתית לניהול חנות פיצה-חני גולדברג.props
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\staticwebassets.pack.json
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\scopedcss\bundle\תשתית לניהול חנות פיצה-חני גולדברג.styles.css
-H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.csproj.CopyComplete
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.genruntimeconfig.cache
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\ref\תשתית לניהול חנות פיצה-חני גולדברג.dll
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\FileService.dll
@@ -113,3 +112,11 @@ H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.staticwebassets.runtime.json
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\myServices.dll
 H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\myServices.pdb
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+H:\webApi\חדש\תשתית לניהול חנות פיצה חני גולדברג\obj\Debug\net8.0\תשתית לניהול חנות פיצה-חני גולדברג.csproj.CopyComplete

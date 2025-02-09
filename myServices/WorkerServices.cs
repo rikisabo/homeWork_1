@@ -1,23 +1,36 @@
-
 using myModels;
 using myModels.Interfaces;
+using FileService;
+using FileService.Interfaces;
+
 namespace myServices;
 public class WorkerServices : Iworker
 {
-List <Worker> workers=new List<Worker>
+    IFileService<Worker> _file;
+
+    string _path = @"H:/webApi/חדש/workerFile.json";
+    public WorkerServices(IFileService<Worker> file)
     {
-        new Worker("Avi",20,1548),
-        new Worker("Dovi",25,45987)
+        _file = file;
+    }
+    List<Worker> workers = new List<Worker>
+    {
+        new Worker("Avi",20,1548,"admin","gyftt")
     };
-    public bool addWorker(string name,int age,int salary){
-   foreach (var item in workers)
-   {
-    if(item.name!=name){
-        Worker i=new Worker(name,age,salary);
-        workers.Add(i);
-        return true; 
+    public bool addWorker(string Name, int Age, int Salary, string Role, string Password)
+    {
+        foreach (var item in workers)
+        {
+            if (item.Name != Name)
+            {
+                Worker i = new Worker(Name, Age, Salary, Role, Password);
+                workers.Add(i);
+                _file.Write(i, _path);
+                return true;
+            }
+
+        }
+        return false;
     }
     
-   }return false;
-    }
 }

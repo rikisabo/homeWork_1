@@ -1,27 +1,34 @@
+using System.ComponentModel.DataAnnotations;
 using System.Security.Cryptography;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
- using myModels.Interfaces;
+using myModels.Interfaces;
 
 namespace תשתית_לניהול_חנות_פיצה_חני_גולדברג.Controllers;
 
 public class ChanisPizzaController : BaceController
 {
       IpizzaMannager _chanisPizza;
+
       public ChanisPizzaController(IpizzaMannager pizza)
       {
             _chanisPizza = pizza;
       }
       [Route("[action]")]
       [HttpGet]
+      [Authorize(Policy = "Admin")]
       public IActionResult getPizzaList()
       {
             var p2 = _chanisPizza.getPizzaList();
-            if (p2 != null){
-                 return Ok(p2);}
+            if (p2 != null)
+            {
+                  return Ok(p2);
+            }
             return NotFound("no pizza list!!!!");
       }
       [Route("[action]/{id}")]
       [HttpGet]
+
       public IActionResult getPizza(int id)
       {
             ChanisPizza p2 = _chanisPizza.getPizza(id);
@@ -32,6 +39,7 @@ public class ChanisPizzaController : BaceController
 
       [Route("~/[controller]/getPizzaByName/{name}")]
       [HttpGet]
+
       public IActionResult getPizzaByName(string name)
       {
             var p3 = _chanisPizza.getPizzaByName(name);
@@ -42,7 +50,8 @@ public class ChanisPizzaController : BaceController
 
       [Route("[action]/{name}/{id}/{ifGloten}")]
       [HttpPost]
-      public IActionResult setPizza(string name, int id, bool ifGloten)
+      [Authorize(Policy = "SuperWorker")]
+      public IActionResult setPizza([Required] string name, [Range(1, 1000)] int id, bool ifGloten)
       {
             _chanisPizza.setPizza(name, id, ifGloten);
             return Created();
@@ -50,6 +59,7 @@ public class ChanisPizzaController : BaceController
 
       [Route("[action]/{id}")]
       [HttpDelete]
+      [Authorize(Policy = "SuperWorker")]
       public IActionResult deletePizza(int id)
       {
 
@@ -62,6 +72,7 @@ public class ChanisPizzaController : BaceController
 
       [Route("[action]/{id}/{ifGloten}")]
       [HttpPut]
+      [Authorize(Policy = "SuperWorker")]
       public IActionResult updatePizza(int id, bool ifGloten)
       {
             bool bb = _chanisPizza.updatePizza(id, ifGloten);

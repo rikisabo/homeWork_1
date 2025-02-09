@@ -11,7 +11,7 @@ using FileService.Interfaces;
 namespace FileService;
 
 
-public class ReadWrite<T>:IFileService<T>
+public class ReadWrite<T> : IFileService<T>
 {
     private readonly string _path;
     public ReadWrite(string path)
@@ -28,10 +28,10 @@ public class ReadWrite<T>:IFileService<T>
         }
         return list;
     }
-    public void Write(T obj,string _path)
+    public void Write(T obj, string _path)
     {
         var list = Read(_path);
         list.Add(obj);
         File.WriteAllText(_path, JsonConvert.SerializeObject(list));
-    }                      
+    }
 }

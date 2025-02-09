@@ -1,27 +1,19 @@
-using myModels;
+// 
+using myModels;  // Ensures the namespace is correctly included
+
 public class Orders
 {
-//     private int v1;
-//     private int v2;
-//     private bool v3;
-
-    public int id{get;set;}
-    public int pay{get;set;}
-    public bool ifPay{get;set;}
+    public int Id { get; set; }  // It is a convention to use PascalCase for public properties
+    public int Pay { get; set; }
+    public bool IfPay { get; set; }
+    public bool PayByCreditCard { get; set; }
+    public CreditCardDetails CreditCardDetails { get; set; }  // Declare the property
     
-    public Orders(int id,int pay, bool ifPay){
-    this.id=id;
-    this.pay=pay;
-    this.ifPay=ifPay;
+    public Orders(int id, int pay, bool ifPay, CreditCardDetails creditCardDetails)
+    {
+        this.Id = id;
+        this.Pay = pay;
+        this.IfPay = ifPay;
+        this.CreditCardDetails = creditCardDetails;
     }
-
-    // public Orders(int v1, int id, int v2, int pay, bool v3, bool ifPay)
-    // {
-    //     this.v1 = v1;
-    //     this.id = id;
-    //     this.v2 = v2;
-    //     this.pay = pay;
-    //     this.v3 = v3;
-    //     this.ifPay = ifPay;
-    // }
 }
